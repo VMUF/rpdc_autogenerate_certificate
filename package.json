@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "http://VMUF.github.io/rpdc_autogenerate_certificate/",
+  "homepage": "http://vmuf.github.io/rpdc_autogenerate_certificate/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
