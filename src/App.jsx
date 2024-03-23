@@ -12,11 +12,18 @@ import UploadCert from "./pages/UploadCert";
 
 const router = createBrowserRouter([
   {
+    path: "/rpdc_autogenerate_certificate/home",
+    index: "/rpdc_autogenerate_certificate/home",
+    element: <Home />,
+  },
+  {
     element: <Main />,
     children: [
       {
-        path: "/rpdc_autogenerate_certificate/",
-        element: <Navigate replace to="/temCert" />,
+        path: "/rpdc_autogenerate_certificate//temCert",
+        element: (
+          <Navigate replace to="/rpdc_autogenerate_certificate/temCert" />
+        ),
       },
       {
         path: "/rpdc_autogenerate_certificate/temCert",
@@ -28,7 +35,6 @@ const router = createBrowserRouter([
       },
     ],
   },
-  { path: "home", element: <Home /> },
 ]);
 
 function App() {
