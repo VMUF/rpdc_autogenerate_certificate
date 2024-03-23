@@ -12,8 +12,11 @@ import UploadCert from "./pages/UploadCert";
 
 const router = createBrowserRouter([
   {
-    path: "/rpdc_autogenerate_certificate/home",
-    index: "/rpdc_autogenerate_certificate/home",
+    index: "/rpdc_autogenerate_certificate/",
+    element: <Navigate replace to={"/rpdc_autogenerate_certificate/home"} />,
+  },
+  {
+    path: "/rpdc_autogenerate_certificate",
     element: <Home />,
   },
   {

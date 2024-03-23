@@ -36,9 +36,11 @@ const Button = styled(NavLink)`
 export default function Home() {
   return (
     <HomeStyled>
-      <Img src="/rpdc.png" alt="img" />
+      <Img src="rpdc.png" alt="img" />
       <Heading>RPDC Auto Generate Certificates</Heading>
-      <Button to={"/temCert"}>Proceed to Main Page</Button>
+      <Button to={"/rpdc_autogenerate_certificate/temCert"}>
+        Proceed to Main Page
+      </Button>
     </HomeStyled>
   );
 }
