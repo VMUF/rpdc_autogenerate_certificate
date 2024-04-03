@@ -158,7 +158,7 @@ export default function UploadCert() {
   return (
     <>
       <Heading>
-        <h2>For a Better Experiece Please use Pc or Laptop 🌝🌝🌝🌝</h2>
+        <h2>For a Better Experience Please use Pc or Laptop 🌝🌝🌝🌝</h2>
       </Heading>
       <DataValue>
         <FileInput type="file" accept="image/*" onChange={handleFileImage} />
